@@ -6,6 +6,7 @@ export default defineConfig({
   workers: 1,
   use: {
     baseURL: 'https://products-store.hexlet.app/',
+    navigationTimeout: 60000,
     browserName: 'chromium',
     locale: 'en-US',
   },
